@@ -1,0 +1,72 @@
+*{
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ct{
+    width: 700px;
+    margin: 0 auto;
+}
+.title{
+    padding: 10px 0;
+    font-size: 26px;
+    color: #666;
+    font-weight: 700;
+    font-family: SimSun;
+}
+.ct button{
+    padding: 7px 15px;
+    border: 1px solid #c81623;
+    border-radius: 4px;
+    background: white;
+    color: #c81623;
+    font-size: 12px;
+    cursor: pointer;
+}
+.list{
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.list li{
+    margin-bottom:20px; 
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 28%;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+/* cover部分 */
+.list .cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    background: rgba(134, 134, 134, 0.5);
+    display: none;
+}
+.cover button{
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%,-50%);
+    padding: 7px;
+}
+
+/* ///////////////////////////////////////// */
+.name,.price{
+    margin-top: 5px;
+    text-align: left;
+    color: #c81623;
+}
+.list .name{
+    height: 36px; 
+    color: #333;
+}
