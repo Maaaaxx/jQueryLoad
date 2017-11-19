@@ -1,4 +1,4 @@
-<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+
 var $add = $('.add')
 
 $add.on('click',function(){
